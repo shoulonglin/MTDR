@@ -1,0 +1,8 @@
+mechanism-file: detailed_mech_C2H5OH.cti
+T-range: [800, 900, 1000, 1100, 1200, 1300, 1400,1500]
+simulation-pressure: 1
+equivalence-ratio: 1.0
+fuel:   C2H5OH :1
+oxidizer:   O2:1, N2:3.76
+error: 0.1
+important-species: [N2,O2,H2O,CO2,C2H5OH]
